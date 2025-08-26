@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Padhaipal — AI Flashcard Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FlashCard Generator</h1>
+    <p>Paste notes → Generate concise Q/A flashcards instantly.</p>
+  </header>
+
+  <main>
+    <section class="input-panel">
+      <label for="notes">Enter Notes / Text</label>
+      <textarea id="notes" rows="10" placeholder="Paste your notes here..."></textarea>
+
+      <div class="controls">
+        <div class="control-group">
+          <label for="count">No. of cards</label>
+          <input id="count" type="number" min="3" max="20" value="6" />
+        </div>
+        <div class="control-group">
+          <label for="lang">Language</label>
+          <select id="lang">
+            <option value="english" selected>English</option>
+            <option value="hinglish">Hinglish</option>
+            <option value="hindi">Hindi</option>
+          </select>
+        </div>
+        <button id="generate">Generate Flashcards</button>
+      </div>
+
+      <p class="hint">Tip:
+      <ul class="hint">
+        <li>Enter clear, well-structured notes for best results.</li>
+        <li>Use bullet points or short paragraphs.</li>
+        <li>Avoid mixing unrelated topics in one input.</li>
+      </ul></p>
+    </section>
+
+    <section class="cards" id="cards"></section>
+  </main>
+
+  <footer>
+    <small>© Made With Love</small>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
