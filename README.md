@@ -17,6 +17,8 @@ Helps in quick revision & self-testing.
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/52a71be8-4443-4498-82e8-9b0846e49a43" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/564bb106-bc44-4913-9186-95b45ba8bacd" />
 
+Video: https://drive.google.com/file/d/1JbIFoaNmNKUmfIlZ9duej5BUD4ifBVSO/view?usp=sharing
+
 Example:
 Input (Notes):
 
